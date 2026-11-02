@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flip-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.flip-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+}
