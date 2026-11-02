@@ -11,7 +11,7 @@ export default function FlipCard({
             onClick={onClick}
             aria-label={`${isFlipped ? "Tutup" : "Buka"} ${title}`}
             aria-pressed={isFlipped}
-            className="group w-full rounded-2xl text-left focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
+            className="group cursor-pointer w-full rounded-2xl text-left focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
         >
             <div className="flip-container h-72 sm:h-80">
                 <div
