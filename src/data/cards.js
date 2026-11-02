@@ -1,14 +1,4 @@
-import {
-  HiOutlineHeart,
-  HiOutlineShieldCheck,
-  HiOutlineBeaker,
-  HiOutlineUserGroup,
-  HiOutlineClipboardDocumentCheck,
-  HiOutlineLightBulb,
-  HiOutlineBuildingOffice2,
-  HiOutlineSparkles,
-  HiOutlineArchiveBox,
-} from "react-icons/hi2";
+import { HiOutlineQuestionMarkCircle } from "react-icons/hi2";
 
 export const CARDS_DATA = [
   {
@@ -16,7 +6,7 @@ export const CARDS_DATA = [
     title: "Kartu 1",
     theme: "Kesprimkom",
     points: 150,
-    Icon: HiOutlineUserGroup,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-purple-500 to-violet-700",
   },
   {
@@ -24,15 +14,15 @@ export const CARDS_DATA = [
     title: "Kartu 2",
     theme: "Sekretariat",
     points: 50,
-    Icon: HiOutlineBuildingOffice2,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-teal-500 to-cyan-600",
   },
   {
     id: 3,
     title: "Kartu 3",
-    theme: "Keslah Farmalkes",
+    theme: "Keslan Farmalkes",
     points: 100,
-    Icon: HiOutlineBeaker,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-emerald-500 to-green-700",
   },
   {
@@ -40,7 +30,7 @@ export const CARDS_DATA = [
     title: "Kartu 4",
     theme: "P2",
     points: 150,
-    Icon: HiOutlineShieldCheck,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-rose-500 to-red-600",
   },
   {
@@ -48,7 +38,7 @@ export const CARDS_DATA = [
     title: "Kartu 5",
     theme: "SDK",
     points: 50,
-    Icon: HiOutlineArchiveBox,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-amber-500 to-orange-600",
   },
   {
@@ -56,7 +46,7 @@ export const CARDS_DATA = [
     title: "Kartu 6",
     theme: "Sekretariat",
     points: 100,
-    Icon: HiOutlineBuildingOffice2,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-cyan-500 to-blue-600",
   },
   {
@@ -64,7 +54,7 @@ export const CARDS_DATA = [
     title: "Kartu 7",
     theme: "Kesprimkom",
     points: 50,
-    Icon: HiOutlineUserGroup,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-indigo-500 to-purple-600",
   },
   {
@@ -72,7 +62,7 @@ export const CARDS_DATA = [
     title: "Kartu 8",
     theme: "P2",
     points: 100,
-    Icon: HiOutlineShieldCheck,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-pink-500 to-rose-600",
   },
   {
@@ -80,7 +70,7 @@ export const CARDS_DATA = [
     title: "Kartu 9",
     theme: "SDK",
     points: 150,
-    Icon: HiOutlineSparkles,
+    Icon: HiOutlineQuestionMarkCircle,
     gradient: "from-yellow-500 to-amber-600",
   },
 ];
